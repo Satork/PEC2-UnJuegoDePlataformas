@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.PEC2 UnJuegoDePlataformas.iml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../:\!!Julio\UOC\Curso 2021-22\1er Cuatri\Programacion de videojuegos en 2D\Practicas\PEC2\PEC2 UnJuegoDePlataformas\.idea\.idea.PEC2 UnJuegoDePlataformas\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
