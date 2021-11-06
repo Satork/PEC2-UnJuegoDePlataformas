@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour {
 		_moveInput = Input.GetAxis("Horizontal");
 		if (_moveInput < 0) {
 			// ReSharper disable once Unity.InefficientPropertyAccess
-			transform.eulerAngles = new Vector3(0, 180f, 0);
+			transform.eulerAngles = Vector3.up * 180f;
 		}
 		if (_moveInput > 0) {
 			transform.eulerAngles = Vector3.zero;
