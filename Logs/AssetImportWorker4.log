@@ -15,7 +15,7 @@ F:/!!Julio/UOC/Curso 2021-22/1er Cuatri/Programacion de videojuegos en 2D/Practi
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-61235
+53351
 Successfully changed project path to: F:/!!Julio/UOC/Curso 2021-22/1er Cuatri/Programacion de videojuegos en 2D/Practicas/PEC2/PEC2 UnJuegoDePlataformas
 F:/!!Julio/UOC/Curso 2021-22/1er Cuatri/Programacion de videojuegos en 2D/Practicas/PEC2/PEC2 UnJuegoDePlataformas
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ F:/!!Julio/UOC/Curso 2021-22/1er Cuatri/Programacion de videojuegos en 2D/Practi
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 148.92 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 159.75 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.0f1 (4bf1ec4b23c9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Resources/UnitySubsystems
@@ -63,5 +63,5 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly

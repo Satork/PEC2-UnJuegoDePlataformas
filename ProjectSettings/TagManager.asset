@@ -11,11 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Obstacle
+  - Breakable
+  - CoinBoxes
   - 
   - 
   - 
@@ -40,4 +40,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Reference
+    uniqueID: 1381990377
+    locked: 0
+  - name: Background
+    uniqueID: 3194003211
+    locked: 0
+  - name: Obstacles
+    uniqueID: 3239621657
+    locked: 0
+  - name: Breakable
+    uniqueID: 1764391965
+    locked: 0
+  - name: CoinBoxes
+    uniqueID: 811957567
+    locked: 0
+  - name: Player
+    uniqueID: 2067050869
     locked: 0
