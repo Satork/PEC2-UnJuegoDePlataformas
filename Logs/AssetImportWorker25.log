@@ -399,3 +399,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5709.406745 seconds.
+  path: Assets/Prefabs/PowerUp.prefab
+  artifactKey: Guid(69b92f86edd3afc4fb530968212b56af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PowerUp.prefab using Guid(69b92f86edd3afc4fb530968212b56af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0062127d3bb77388f1c732a3bbdda2f7') in 73.558244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.761921 seconds.
+  path: Assets/Prefabs/PowerUp_Star.prefab
+  artifactKey: Guid(ef193844b85ff95458dd320cb380979b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PowerUp_Star.prefab using Guid(ef193844b85ff95458dd320cb380979b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfe25b78e3fce9c805ef3da1cfbce97') in 0.783304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.220565 seconds.
+  path: Assets/Prefabs/PowerUp.prefab
+  artifactKey: Guid(69b92f86edd3afc4fb530968212b56af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PowerUp.prefab using Guid(69b92f86edd3afc4fb530968212b56af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffad51efb13a369617997a3bb226bbb9') in 0.108784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.891513 seconds.
+  path: Assets/Prefabs/PowerUp_Star.prefab
+  artifactKey: Guid(ef193844b85ff95458dd320cb380979b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PowerUp_Star.prefab using Guid(ef193844b85ff95458dd320cb380979b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6659b98530e153ad1e210c59b28b6189') in 0.209382 seconds 
