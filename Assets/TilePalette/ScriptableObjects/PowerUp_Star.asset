@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 381775a1919843268c5011fe12305917, type: 3}
+  m_Name: PowerUp_Star
+  m_EditorClassIdentifier: 
+  tile: {fileID: 11400000, guid: c9537f7fb64aaad4ca3def0b2bb0e45c, type: 2}
+  tileGameObject: {fileID: 7908908215540479821, guid: ef193844b85ff95458dd320cb380979b, type: 3}
+  targetPosition: {x: 11.5, y: -2.5, z: 0}
+  spawnSpeed: 1
+  moveSpeed: 0

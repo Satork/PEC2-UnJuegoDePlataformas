@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 381775a1919843268c5011fe12305917, type: 3}
+  m_Name: Coin
+  m_EditorClassIdentifier: 
+  tile: {fileID: 11400000, guid: 3cb333cb6aa76f140915333d475bcdad, type: 2}
+  tileGameObject: {fileID: 2865759306378706782, guid: cd72355b87b70d148a7556d279bf6ac8, type: 3}
+  targetPosition: {x: -73.5, y: -2.5, z: 0}
+  spawnSpeed: 7

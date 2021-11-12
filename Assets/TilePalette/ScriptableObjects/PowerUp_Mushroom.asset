@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 381775a1919843268c5011fe12305917, type: 3}
+  m_Name: PowerUp_Mushroom
+  m_EditorClassIdentifier: 
+  tile: {fileID: 11400000, guid: b2da1e197bee2b0489954607e87897fb, type: 2}
+  tileGameObject: {fileID: 828886541010302873, guid: 69b92f86edd3afc4fb530968212b56af, type: 3}
+  targetPosition: {x: 19.5, y: 1.5, z: 0}
+  spawnSpeed: 1
+  moveSpeed: 3
