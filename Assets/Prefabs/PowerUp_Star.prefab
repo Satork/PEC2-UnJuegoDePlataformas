@@ -74,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -11543151
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1896895664, guid: f352f3966eb274d4b85573bbf2748186, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -164,3 +164,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileData: {fileID: 11400000, guid: cad3a84fe681edb4a8e092425cb2691d, type: 2}
+  transform: {fileID: 0}
+  boxCollider2D: {fileID: 0}
+  rigidbody2D: {fileID: 0}
+  hasSpawned: 0
+  hasComponent: 0
