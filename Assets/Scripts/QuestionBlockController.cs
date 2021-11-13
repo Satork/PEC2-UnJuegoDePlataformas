@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Tilemaps;
 
 [RequireComponent(typeof(Tilemap))]
@@ -44,7 +43,7 @@ public class QuestionBlockController : MonoBehaviour {
 			if (contactTile.Equals(tile))
 				isQuestionBlock = true;
 		
-		Debug.Log("Is QuestionBlock? " + isQuestionBlock);
+		//Debug.Log("Is QuestionBlock? " + isQuestionBlock);
 		
 		if (!isQuestionBlock) return;
 		var powerUpTile = powerUpTilemap.GetTile(contactTileCell);

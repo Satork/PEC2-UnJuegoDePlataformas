@@ -1,6 +1,4 @@
-﻿using System;
-using UnityEditor.UIElements;
-using UnityEngine;
+﻿using UnityEngine;
 
 // Activates when Player falls to its death
 [RequireComponent(typeof(Collider2D))]

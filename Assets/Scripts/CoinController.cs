@@ -1,12 +1,5 @@
-using System;
 using UnityEngine;
 
 public class CoinController : MonoBehaviour {
-	private QuestionBlockController _questionBlockController;
-
-	private void Start() {
-		_questionBlockController = FindObjectOfType<QuestionBlockController>();
-	}
-	
-	
+	// TODO Add points to score every time coins is destroyed. This applies for floating coins. 
 }

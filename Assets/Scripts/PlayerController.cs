@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using Mono.Cecil.Cil;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(BoxCollider2D), typeof(Animator))]
 public class PlayerController : MonoBehaviour {
@@ -16,7 +13,6 @@ public class PlayerController : MonoBehaviour {
 	private Rigidbody2D _rigidbody;
 	private BoxCollider2D _boxCollider;
 	private Animator _animator;
-	private SpriteRenderer _spriteRenderer;
 
 	private float _jumpCountdown;
 	// private const float Distance = .1f;	// Deprecated since collisions direction are now updated through OnCollisionEnter2D method
@@ -35,7 +31,6 @@ public class PlayerController : MonoBehaviour {
 		_rigidbody = GetComponent<Rigidbody2D>();
 		_boxCollider = GetComponent<BoxCollider2D>();
 		_animator = GetComponent<Animator>();
-		_spriteRenderer = GetComponent<SpriteRenderer>();
 		_jumpCountdown = jumpTime;
 		IsJumping = false;
 		IsHit = true;
@@ -44,12 +39,11 @@ public class PlayerController : MonoBehaviour {
 	
 	// Detect Jump and Crouch intentions and perform jump and crouch
 	private void Update() {
-		var spriteSize = _spriteRenderer.sprite.bounds.size;
 		var bounds = _boxCollider.bounds;
 		bool isGrounded = Physics2D.BoxCast(bounds.center, bounds.size,
 		                                    0f, Vector2.down, castHeight,
 		                                    groundLayerMask);
-		Debug.DrawRay(bounds.center, Vector3.down * castHeight, Color.green);
+		//Debug.DrawRay(bounds.center, Vector3.down * castHeight, Color.green);
 		// TODO Change jump key from Space to configurable JumpKey
 		// Player jumps when JumpKey is active
 		if (isGrounded && Input.GetKeyDown(KeyCode.Space)) {
@@ -77,7 +71,7 @@ public class PlayerController : MonoBehaviour {
 		// TODO Add crouching mechanincs for Super Mario
 
 		if (Input.GetKeyUp(KeyCode.Space)) IsJumping = false;
-		Debug.Log("IsGrounded: " + isGrounded);
+		//Debug.Log("IsGrounded: " + isGrounded);
 		// Starts Jump animation
 		_animator.SetBool(Jump, !isGrounded);
 

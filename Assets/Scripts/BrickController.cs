@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using Unity.Mathematics;
-using Unity.VisualScripting;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 

@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 // Base spawn that makes all different powerups enter the screen. 
 [RequireComponent(typeof(BoxCollider2D))]
